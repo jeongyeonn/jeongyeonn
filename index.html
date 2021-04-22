@@ -1,0 +1,92 @@
+<!DOCTYPE html><!--22061026 김정연-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>백일의 낭군님</title>
+    <style>
+    body {
+      padding: 0px;
+      margin: 0px; }
+      #video {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+    width: 100%;
+     z-index: -1;
+     overflow: hidden;
+
+}
+.logo {
+  transform:scale(1);
+  filter: brightness(100%);
+}
+.logo:hover {
+  transform:scale(1);
+  filter: brightness(70%);
+}
+
+    #menu_nav{
+      text-align: center;
+      padding-top: 5px;
+      margin: 30px 0px 20px 0px;
+    }
+
+    #menu_nav li{
+      font-family: '블랙빈_하루 M_Pro';
+      font-size: 23px;
+      display: inline;
+    }
+   #menu li{
+      display: inline;
+    }
+    .item{
+      margin: 0 25px 0 25px;
+    }
+    .item a:hover{
+        color: #5BE4FF;
+      }
+    .item a{
+      text-decoration: none;
+      color: #fff;
+    }
+
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+     p {
+       margin-left: 980px;
+       margin-top: 120px;
+     }
+
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav id='menu'>
+      <ul id='menu_nav'>
+        <li class= "item"><a href= "story.html">이야기</a></li>
+        <li class='item'><a href="people.html">등장인물</a></li>
+        <span class= "logo"><li class='item'><a href="#"><img src= "img/logo.png" width= "130"></a></li></span>
+        <li class='item'><a href="teaser.html">맛보기영상</a></li>
+        <li class='item'><a href="bgm.html">배경음악</a></li>
+      </ul>
+    </nav>
+    <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+          <source src="indexx.mp4" type= "video/mp4">
+            <source src="indexx.webm" type= "video/webm">
+              <source src="indexx.ogg" type= "video/ogg">
+
+    </video>
+<p><img src= "./img/white.png" width= "400"></p>
+
+
+
+
+
+
+  </body>
+</html>
